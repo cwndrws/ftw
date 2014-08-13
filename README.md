@@ -16,8 +16,9 @@ Install
 
  * If you want it to be on always, add the following as well:
 
-    (ftw-mode 1)
-
+```elisp
+(ftw-mode 1)
+```
  
 Leader Key
 ----------
