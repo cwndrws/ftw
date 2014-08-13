@@ -8,9 +8,11 @@ Install
 
  * Clone this repo somewhere
  * Add the following to your `~/.emacs`:
-
-    (add-to-list 'load-path "/path/to/cloned/repo")
-    (requre 'ftw)
+ 
+```elisp
+(add-to-list 'load-path "/path/to/cloned/repo")
+(requre 'ftw)
+```
 
  * If you want it to be on always, add the following as well:
 
@@ -22,7 +24,9 @@ Leader Key
 
 I use evil mode ("boo", I know), so the default prefix binding for ftw is "C-a", since I don't need to use it to get to the beginning of the line. If you do however want to set the leader to something else, There is a function `ftw-set-leader-key` to do this. Let's say you want to to set the leader key to "C-;", you would add the following to your `~/.emacs` _after_ loading the package:
 
-    (ftw-set-leader-key "C-;")
+```elisp
+(ftw-set-leader-key "C-;")
+```
 
 Usage
 -----
